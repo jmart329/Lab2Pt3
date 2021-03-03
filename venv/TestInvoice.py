@@ -20,6 +20,6 @@ def test_CanCalculateTotalDiscount(products):
     invoice.totalDiscount(products)
     assert invoice.totalDiscount(products) == 5.62
 
-def test_CanCalculateTotalImpurePrice(products):
+def test_CanCalculateTotalPurePrice(products):
     invoice.totalPurePrice(products)
     assert invoice.totalPurePrice(products) == 69.38
